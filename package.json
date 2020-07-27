@@ -1,0 +1,33 @@
+{
+  "name": "qi_test",
+  "private": true,
+  "dependencies": {
+    "@openlayers-elements/core": "^0.2.0-beta.0",
+    "@openlayers-elements/maps": "^0.2.0-beta.0",
+    "@rails/actioncable": "^6.0.0",
+    "@rails/activestorage": "^6.0.0",
+    "@rails/ujs": "^6.0.0",
+    "@rails/webpacker": "4.2.2",
+    "bootstrap": "^4.5.0",
+    "datatables.net-dt": "^1.10.21",
+    "geocoder": "^0.2.3",
+    "imports-loader": "^1.1.0",
+    "jquery": "^3.5.1",
+    "ol": "^6.3.1",
+    "ol-geocoder": "^4.0.0",
+    "openlayers": "^4.6.5",
+    "openlayers-ext": "^3.1.5",
+    "parcel": "^1.12.4",
+    "popper.js": "^1.16.1",
+    "turbolinks": "^5.2.0"
+  },
+  "version": "0.1.0",
+  "devDependencies": {
+    "parcel": "1.11.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --experimental-scope-hoisting --public-url . index.html"
+  }
+}
